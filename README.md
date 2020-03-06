@@ -15,8 +15,27 @@ Attempt to access MIB2 Std filesystem to run some scripts and customize few thin
 * Bricking the headunit
 
 ## Requirements
-1. Supported infotainment unit with enabled developer mode
+1. Supported infotainment unit
+1. Enabled developer mode
 1. Empty, FAT32 formatted SD card 
+
+## Enabling developer mode
+### with OBDeleven
+https://www.youtube.com/watch?v=R9WlrkBioi8
+1. Connect with module 5F.
+1. Select `Change service` and select `Developemnt mode`.
+1. Select `Adaptation`.
+1. Select channel `Developer mode`.
+1. Set it to `Activated`
+1. Save new setting.
+
+### with VCDS
+1. Connect with module 5F.
+1. Select `Security Access` and enter code `S12345`.
+1. Select `Adaptation`.
+1. Select channel `Developer mode`.
+1. Set it to `Activated`
+1. Save new setting.
 
 ## Installation
 1. Place all files in root directory of the SD card.
