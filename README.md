@@ -60,6 +60,7 @@ https://www.youtube.com/watch?v=R9WlrkBioi8
 * Preatty much everything right now...
 * VW Composition Media MIB2 - one could use radiostation logo DB update vector.
 * Dumping interesing files to SD card
+* Filesystem root password hash extraction
 * Replacing system UI elements
 * Replacing system SFX
 
