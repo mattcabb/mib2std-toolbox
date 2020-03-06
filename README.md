@@ -76,4 +76,5 @@ https://www.youtube.com/watch?v=R9WlrkBioi8
 1. GEM `.esd` files path: `/tsd/etc/persistence/esd`.
 1. File `tmp/hmi/runHMI.sh` contains lines<br>
 `# Override SWaP`<br>
-`# VMOPTIONS="$VMOPTIONS -Dde.vw.mib.asl.internal.exlap.overrideSWaP"`
+`# VMOPTIONS="$VMOPTIONS -Dde.vw.mib.asl.internal.exlap.overrideSWaP"`<br>
+which indicates that there's a flag to ignore SWaP codes for development purposes when running the software on virtual machine.
