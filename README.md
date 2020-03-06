@@ -1,5 +1,5 @@
 # MIB2Std-toolbox
-Attempt to access MIB2 Std filesystem to run some scripts and customize few things in the Infotainment system.
+Attempt to access VW, Seat, Skoda MIB2Std Infotainment filesystem to run some scripts and customize few things.
 
 ## Supported devices (soon to be)
 * VW Discover Media MIB2 Delphi
@@ -58,7 +58,7 @@ https://www.youtube.com/watch?v=R9WlrkBioi8
 
 ## TODO
 * Preatty much everything right now...
-* For VW Composition Media MIB2 support one could use radiostation logo DB update vector.
+* VW Composition Media MIB2 - one could use radiostation logo DB update vector.
 * Dumping interesing files to SD card
 * Replacing system UI elements
 * Replacing system SFX
@@ -70,3 +70,4 @@ https://www.youtube.com/watch?v=R9WlrkBioi8
 1. `mib2std-toolbox.esd` file is an additional green engeneering menu screen which gives you access to running custom scripts.
 
 ## Research files
+1. `Research/variants.csv` - list of variants with carmaker, hardware producer, and other details.
