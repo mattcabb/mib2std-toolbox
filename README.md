@@ -1,7 +1,7 @@
 # MIB2Std toolbox
 Attempt to access MIB2 Std filesystem to run some scripts and customize few things in the Infotainment system.
 
-## Supported devices
+## Supported devices (soon to be)
 * VW Discover Media MIB2 Delphi
 * VW Discover Media MIB2 Technisat
 
