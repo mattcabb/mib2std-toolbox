@@ -1,4 +1,4 @@
-# MIB2Std toolbox
+# MIB2Std-toolbox
 Attempt to access MIB2 Std filesystem to run some scripts and customize few things in the Infotainment system.
 
 ## Supported devices (soon to be)
@@ -12,7 +12,10 @@ Attempt to access MIB2 Std filesystem to run some scripts and customize few thin
 
 ## Risks
 * Loosing warranty
+* Messing up the system
 * Bricking the headunit
+* Makine the car inoperable
+* 🔥🔥🔥
 
 ## Requirements
 1. Supported infotainment unit
@@ -37,7 +40,7 @@ https://www.youtube.com/watch?v=R9WlrkBioi8
 1. Set it to `Activated`
 1. Save new setting.
 
-## Installation
+## MIB2Std-toolbox Installation
 1. Place all files in root directory of the SD card.
 1. Turn the ignition on
 1. Wait about 1 minute for the infotainment to fully boot up.
