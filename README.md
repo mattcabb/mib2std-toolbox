@@ -70,5 +70,7 @@ https://www.youtube.com/watch?v=R9WlrkBioi8
 1. Next `./PersonalPOI/MIB2DE/metainfo2.txt` file is processed. Again it contains list of variants but also files&directories to copy, destination paths, checksums. Altering destination path will force custom `.esd` file to be coppied to the infotainment file system.
 1. `mib2std-toolbox.esd` file is an additional green engeneering menu screen which gives you access to running custom scripts.
 
-## Research files
+## Research
 1. `Research/variants.csv` - list of variants with carmaker, hardware producer, and other details.
+1. SD card root paths: `/media/mp000`, `/media/mp001`.
+1. `.esd` files path: `/tsd/etc/persistence/esd`.
