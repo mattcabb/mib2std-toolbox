@@ -1,3 +1,5 @@
+⚠️ Don't bother to install it. It's not ready yet.
+
 # MIB2Std-toolbox
 Attempt to access VW, Seat, Skoda MIB2Std Infotainment filesystem to run some scripts and customize few things.
 
