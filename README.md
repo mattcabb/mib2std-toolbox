@@ -2,11 +2,14 @@
 Attempt to access VW, Seat, Skoda MIB2Std Infotainment filesystem to run some scripts and customize few things.
 
 ## Supported devices (soon to be)
-* VW Discover Media MIB2 Delphi
 * VW Discover Media MIB2 Technisat
 
 ## Unsuported devices
+* VW Discover Media MIB2 Delphi
 * all MIB1 infotainment units
+* all Skoda Infotainment units
+* all Seat Infotainemnt units
+* all Audi Infotainment units
 * VW Composition Media MIB2 (no navi, no Personal POI, no attack vector)
 * VW Discover Pro MIB2 (go to https://github.com/jilleb/mib2-toolbox for a great tool)
 
@@ -41,8 +44,9 @@ https://www.youtube.com/watch?v=R9WlrkBioi8
 1. Save new setting.
 
 ## MIB2Std-toolbox Installation
-1. Place all files in root directory of the SD card.
-1. Turn the ignition on
+1. Download the repository.
+1. Place content of the `CopyToSdCard` direcotry in root directory of the SD card.
+1. Turn the ignition on.
 1. Wait about 1 minute for the infotainment to fully boot up.
 1. Insert card to the SD1 port in the glovebox.
 1. Wait for `SD card 1: Software update` notification.
