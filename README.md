@@ -75,12 +75,3 @@ https://www.youtube.com/watch?v=R9WlrkBioi8
 1. `./metainfo2.txt` file contains list of Variants that the update applyies to and paths for files specific for each variant (for example `./PersonalPOI/MIB2TSD`).
 1. Next `./PersonalPOI/MIB2DE/metainfo2.txt` file is processed. Again, it contains list of variants but also files & directories to copy, destination paths, checksums, etc. Altering destination path will force custom GEM `.esd` file to be copied to the infotainment file system.
 1. `mib2std-toolbox.esd` file is an additional green engeneering menu screen which gives you access to running custom scripts.
-
-## Research
-1. `Research/variants.csv` - list of variants with carmaker, hardware producer, and other details.
-1. SD card root paths: `/media/mp000`, `/media/mp001`.
-1. GEM `.esd` files path: `/tsd/etc/persistence/esd`.
-1. File `tmp/hmi/runHMI.sh` contains lines<br>
-`# Override SWaP`<br>
-`# VMOPTIONS="$VMOPTIONS -Dde.vw.mib.asl.internal.exlap.overrideSWaP"`<br>
-which indicates that there's a flag to ignore SWaP codes for development purposes when running the software on virtual machine.
