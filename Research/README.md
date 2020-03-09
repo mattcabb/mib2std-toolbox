@@ -12,7 +12,7 @@
 (found in update files)<br>
 `.esd` files path: `/tsd/etc/persistence/esd`.
 
-## Tree of files
+## File structure
 (without `tree` commnad)<br>
 `find / | sed -e "s/[^-][^\/]*\// |/g" -e "s/|\([^ ]\)/|-\1/" > /media/mp000/tree.txt`
 
