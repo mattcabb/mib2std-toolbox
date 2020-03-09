@@ -1,14 +1,20 @@
 # Research
 
-## Variants
+## Headunit variants
 `Research/variants.csv` - list of variants with carmaker, hardware producer, and other details.
 
 ## SD card root paths
+(found in update files)<br>
 `/media/mp000`<br>
 `/media/mp001`.
 
-## GEM
+## GEM - Green Engineering Menu
+(found in update files)<br>
 `.esd` files path: `/tsd/etc/persistence/esd`.
+
+## Tree of files
+(without `tree` commnad)<br>
+`find / | sed -e "s/[^-][^\/]*\// |/g" -e "s/|\([^ ]\)/|-\1/" > /media/mp000/tree.txt`
 
 ## Enabling developer mode
 ### with OBDeleven
@@ -32,4 +38,4 @@ https://www.youtube.com/watch?v=R9WlrkBioi8
 File `tmp/hmi/runHMI.sh` contains lines<br>
 `# Override SWaP`<br>
 `# VMOPTIONS="$VMOPTIONS -Dde.vw.mib.asl.internal.exlap.overrideSWaP"`<br>
-which indicates that there's a flag to ignore SWaP codes for development purposes when running the software on virtual machine.
+which indicates that there's a flag that might ignore FEC/SWaP codes for development purposes when running the software on virtual machine. Can it also be triggered when the HU is runnig?
