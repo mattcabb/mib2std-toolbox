@@ -6,11 +6,16 @@
 ## SD card root paths
 (found in update files)<br>
 `/media/mp000`<br>
-`/media/mp001`.
+`/media/mp001`
 
 ## GEM - Green Engineering Menu
 (found in update files)<br>
-`.esd` files path: `/tsd/etc/persistence/esd`.
+`.esd` files path: `/tsd/etc/persistence/esd`
+
+## System sounds
+(found in update files)<br>
+`/tsd/etc/waveplayer/sound/*.wav` - TOUCHSCREEN2.wav, NAVPOI.wav, WARNING1.wav<br>
+`/tsd/etc/speech/tts/tones/Tones22kHz16Bitmono/tone_error.wav`
 
 ## File structure
 (without `tree` commnad)<br>
