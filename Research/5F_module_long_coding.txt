@@ -1,0 +1,384 @@
+Dia_Cod_2 ID_CAR_BRAND
+	0x0 keine Marke
+	0x1 AUDI
+	0x2 VW
+	0x3 SKODA
+	0x4 SEAT
+	0x5 BENTLEY
+	0x6 VW-NFZ
+	0x7 PORSCHE
+	0x8 MAN
+
+Dia_Cod_527 ID_CAR_CLASS
+Dia_Cod_531 ID_CAR_GENERATION
+Dia_Cod_535 ID_CAR_DERIVATE
+Dia_Cod_539 ID_CAR_DERIVATE_SUPPLEMENT
+
+Dia_Cod_223 ID_COUNTRY
+	0x00 Keine
+	0x01 EU
+	0x02 NAR
+	0x03 MSA
+	0x04 Korea
+	0x05 China
+	0x06 Japan
+	0x07 AsiaPacific
+	0x08 Australia
+	0x09 South Afrika
+	0x0A NEAST
+	0x0B NMAfrica
+	0x0C MEAST
+	0x0D CentralAsia
+	0x0E India
+	0x0F Israel
+	0x10 Taiwan
+	0x11 MSA 2
+	0x12 China 2
+	0x13 China 3
+
+Dia_Cod_549 ID_SPEAKER_CHANNEL_INSTALLED_HT_1
+Dia_Cod_775 ID_SPEAKER_CHANNEL_INSTALLED_TT_1
+Dia_Cod_550 ID_SPEAKER_CHANNEL_INSTALLED_HT_2
+Dia_Cod_776 ID_SPEAKER_CHANNEL_INSTALLED_TT_2
+Dia_Cod_551 ID_SPEAKER_CHANNEL_INSTALLED_HT_3
+Dia_Cod_777 ID_SPEAKER_CHANNEL_INSTALLED_TT_3
+Dia_Cod_552 ID_SPEAKER_CHANNEL_INSTALLED_HT_4
+Dia_Cod_778 ID_SPEAKER_CHANNEL_INSTALLED_TT_4
+Dia_Cod_553 ID_SPEAKER_CHANNEL_INSTALLED_HT_5
+Dia_Cod_779 ID_SPEAKER_CHANNEL_INSTALLED_TT_5
+Dia_Cod_554 ID_SPEAKER_CHANNEL_INSTALLED_HT_6
+Dia_Cod_780 ID_SPEAKER_CHANNEL_INSTALLED_TT_6
+Dia_Cod_559 ID_SPEAKER_CHANNEL_INSTALLED_HT_7
+Dia_Cod_781 ID_SPEAKER_CHANNEL_INSTALLED_TT_7
+Dia_Cod_564 ID_SPEAKER_CHANNEL_INSTALLED_HT_8
+Dia_Cod_782 ID_SPEAKER_CHANNEL_INSTALLED_TT_8
+Dia_Cod_569 ID_SPEAKER_CHANNEL_INSTALLED_HT_9
+Dia_Cod_783 ID_SPEAKER_CHANNEL_INSTALLED_TT_9
+Dia_Cod_574 ID_SPEAKER_CHANNEL_INSTALLED_HT_10
+Dia_Cod_784 ID_SPEAKER_CHANNEL_INSTALLED_TT_10
+Dia_Cod_579 ID_SPEAKER_CHANNEL_INSTALLED_HT_11
+Dia_Cod_785 ID_SPEAKER_CHANNEL_INSTALLED_TT_11
+Dia_Cod_584 ID_SPEAKER_CHANNEL_INSTALLED_HT_12
+Dia_Cod_786 ID_SPEAKER_CHANNEL_INSTALLED_TT_12
+Dia_Cod_589 ID_SPEAKER_CHANNEL_INSTALLED_HT_13
+Dia_Cod_787 ID_SPEAKER_CHANNEL_INSTALLED_TT_13
+Dia_Cod_594 ID_SPEAKER_CHANNEL_INSTALLED_HT_14
+Dia_Cod_788 ID_SPEAKER_CHANNEL_INSTALLED_TT_14
+Dia_Cod_808 ID_SPEAKER_CHANNEL_INSTALLED_HT_15
+Dia_Cod_802 ID_SPEAKER_CHANNEL_INSTALLED_TT_15
+Dia_Cod_811 ID_SPEAKER_CHANNEL_INSTALLED_HT_16
+Dia_Cod_805 ID_SPEAKER_CHANNEL_INSTALLED_TT_16
+
+Dia_Cod_632 ID_MICROPHONE_1
+Dia_Cod_633 ID_MICROPHONE_2
+Dia_Cod_417 ID_HEADPHONES_OUTPUT_1
+Dia_Cod_418 ID_HEADPHONES_OUTPUT_2
+Dia_Cod_638 ID_AUX_IN
+Dia_Cod_639 ID_AMI
+Dia_Cod_640 ID_TEL_IN
+
+Dia_Cod_298 ID_BAND_SETTINGS_FM_TUNER
+	0x01 EU (RdW)
+	0x02 NAR
+	0x03 JP
+	0x04 KOR
+	0x05 China
+	0x06 Brasilien
+	0x07 KOR
+	0x08 JP
+	0x00 no Setting
+
+Dia_Cod_516 ID_BAND_SETTINGS_AM_TUNER
+	0x01 EU (RdW)
+	0x02 NAR
+	0x03 JP
+	0x04 EU
+	0x05 AUS
+	0x00 no Setting
+
+Dia_Cod_310 ID_BAND_SETTINGS_DAB_TUNER_BAND_1
+	0x01 EU BAND III (-N)
+	0x02 EU BAND III
+	0x03 CANADA L-BAND
+	0x04 KOREA BAND III
+	0x05 CHINA BAND III
+	0x07 NEW ZEALAND BAND III
+	0x06 DOWNLOAD TABLE 1
+	0x00 OFF
+
+Dia_Cod_706 ID_BAND_SETTINGS_DAB_TUNER_BAND_2
+	0x01 L-BAND
+	0x02 DOWNLOAD TABLE 2
+	0x00 OFF
+
+Dia_Cod_248 ID_SOUND_SYSTEM
+	0x00 Soundsystem keine Zuweisung
+	0x01 Soundsystem intern
+	0x02 Soundsystem extern (MOST)
+	0x03 Soundsystem extern (BAP)
+	0x04 Soundsystem intern (individual)
+	0x05 Soundsystem extern (BOOSTER)
+	0x06 Soundsystem extern (BAP with presets)
+
+Dia_Cod_641 ID_FM_ANTENNA
+	0x0 2. FM Antenne vorhanden JA (Double ANT Mode)
+	0x1 2. FM Antenne vorhanden NEIN (Single ANT Mode)
+
+Dia_Cod_908 ID_HD_ANTENNA
+	0x0 AM/FM-Ant
+	0x1 FM-Ant
+	0x2 Switching
+	0x3 MRC
+	0x4 Testmode
+
+Dia_Cod_643 ID_RDS
+	0x1 RDS nicht deaktiviert (HMI switch)
+	0x0 RDS deaktiviert (HMI switch)
+
+Dia_Cod_644 ID_AF
+	0x0 AF persistent
+	0x1 AF temporary
+
+Dia_Cod_645 ID_HD_RADIO_ACTIVATION
+	0x0 nicht aktiviert
+	0x1 aktiviert
+
+Dia_Cod_646 ID_RADIO_TEXT_PLUS
+	0x0 RadioText+ nicht aktiviert
+	0x1 RadioText+ aktiviert
+
+Dia_Cod_647 ID_PI
+	0x1 PI Ignore nicht deaktiviert
+	0x0 PI Ignore deaktiviert
+
+Dia_Cod_696 ID_BWS
+	0x1 BWS restricted
+	0x2 BWS unrestricted
+	0x3 BWS restricted, unrestricte
+	0x0 no BWS
+
+Dia_Cod_700 ID_DAB_ALARM_ANOUNCEMENT
+	0x1 AN
+	0x0 AUS
+
+Dia_Cod_703 ID_FM_PTY31_ALARM
+	0x0 FM PTY31 Alarm aus
+	0x1 FM PTY31 Alarm ein
+
+Dia_Cod_649 ID_AM_DISABLE
+	0x1 AM Sperre aktiviert
+	0x0 AM Sperre deaktiviert
+
+Dia_Cod_884 ID_MULTICHANNEL_RECEIVE
+
+Dia_Cod_888 ID_MULTIPLE_ENTRY_SWITCH
+	0x0 aus
+	0x1 ein
+
+Dia_Cod_891 ID_RDS_DEACTIVATION
+	0x0 nein
+	0x1 ja
+
+Dia_Cod_894 ID_AF_DEACTIVATION
+	0x0 nein
+	0x1 ja
+
+Dia_Cod_603 ID_BASEPLATE
+	0x1 Diagnose Baseplate verbaut
+	0x0 Diagnose Baseplate nicht verbaut
+
+DiA_Cod_604 ID_ANTENNA_BASEPLATE
+	0x1 Antenne an Baseplate verbaut
+	0x0 Antenne an Baseplate nicht verbaut
+
+Dia_Cod_605 ID_CRADLE_FORCE
+	0x1 Cradle Zwang ja
+	0x0 Cradle Zwang nein
+
+Dia_Cod_689 ID_HANDY_IN_CRADLE_FORCE
+	0x1 Handy im Cradle Zwang ja
+	0x0 Handy im Cradle Zwang nein
+
+Dia_Cod_606 ID_PHONE_NAD
+	0x1 Telefon (NAD) AN
+	0x0 Telefon (NAD) AUS
+
+Dia_Cod_928 ID_WIRELESS_CHARGING
+	0x1 verbaut
+	0x0 nicht verbaut
+
+Dia_Cod_607 ID_BLUETOOTH_AVAILABILITY
+	0x1 verfugbar
+	0x0 nicht verfugbar
+
+Dia_Cod_609 ID_BLUETOOTH_MULTIMEDIA_FUNCTIONALITY
+	0x1 verfugbar
+	0x0 nicht verfugbar
+
+Dia_Cod_612 ID_BLUETOOTH_PHONE
+	0x1 verfugbar
+	0x0 nicht verfugbar
+
+Dia_Cod_615 ID_BLUETOOTH_AUDIO
+	0x1 verfugbar
+	0x0 nicht verfugbar
+
+Dia_Cod_618 ID_BLUETOOTH_VISIBILITY
+	0x0 off
+	0x1 auto
+	0x2 on
+	0x3 limitiert
+
+Dia_Cod_842 ID_BLUETOOTH_HEADPHONES
+	0x0 off
+	0x1 on
+
+Dia_Cod_344 ID_SKINNING
+	0x01 Skin 1
+	0x02 Skin 2
+	0x03 Skin 3
+	0x00 no Skin
+
+Dia_Cod_291 ID_SCREENINGS
+
+Dia_Cod_655 ID_LOG_BOOK
+	0x0 Bordbuch nicht angezeigt
+	0x1 Bordbuch angezeigt
+
+Dia_Cod_657 ID_SUSPENSION_ARM_SIDE2
+	0x0 Linkslenker
+	0x1 Rechtslenker
+
+Dia_Cod_718 ID_KOMBI_TRACK_STATION_INFO
+	0x1 Lange Info
+	0x2 Kurze Info
+	0x0 nicht verfugbar
+	0x3 reserved
+
+Dia_Cod_744 ID_REAR_VIEW_LOW
+	0x0 nicht aktiv
+	0x1 aktiv
+
+Dia_Cod_747 ID_MOST
+	0x0 aus
+	0x1 ein
+
+Dia_Cod_756 ID_USB
+	0x0 off
+	0x1 charge
+	0x2 full
+	0x3 USB (iPod)
+
+Dia_Cod_666 ID_DISPLAY_1
+	0x1 Display 1 angeschlossen
+	0x0 Display 1 nicht angeschlossen
+
+Dia_Cod_667 ID_DISPLAY_2
+	0x1 Display 2 angeschlossen
+	0x0 Display 2 nicht angeschlossen
+
+Dia_Cod_668 ID_DISPLAY_3
+	0x1 Display 3 angeschlossen
+	0x0 Display 3 nicht angeschlossen
+
+Dia_Cod_669 ID_DISPLAY_4
+	0x1 Display 4 angeschlossen
+	0x0 Display 4 nicht angeschlossen
+
+Dia_Cod_872 ID_DASHBOARD_AUDIO_SLIDE
+	0x0 aus
+	0x1 ein
+
+Dia_Cod_875 ID_DASHBOARD_PHONE_SLIDE
+	0x0 aus
+	0x1 ein
+
+Dia_Cod_878 ID_DASHBOARD_NAVIGATION_SLIDE
+	0x0 aus
+	0x1 ein
+
+Dia_Cod_881 ID_DASHBOARD_COMMUNICATION
+	0x0 BAP
+	0x1 DDP2
+
+Dia_Cod_850 ID_SCROLLING
+	0x0 aus
+	0x1 ein
+
+Dia_Cod853 ID_MESSAGING_VIA_MAP
+	0x0 aus
+	0x1 ein
+
+Dia_Cod_56 ID_PAGEWISE_SCROLLING
+	0x0 aus
+	0x1 ein
+
+Dia_Cod86 ID_GPS_ANTENNA_AVAILABILITY
+	0x0 GPS Antenne nicht aktiv
+	0x1 GPS Antenne aktiv
+
+Dia_Cod_0 ID_DASHBOARD_GRAPHIC_VARIANT
+	0x0 MOST
+	0x1 CAN
+
+Dia_Cod_77 ID_DASHBOARD_TEXT_REPLACEMENT
+	0x0 aus
+	0x1 ein
+
+Dia_Cod_93 ID_BYTE_22_BAP_SDS_SD
+	0x0 aus
+	0x1 ein
+
+Dia_Cod_921 ID_KEYPAD_REAR_KEYS
+	0x1 verfugbar
+	0x0 nicht verfugbar
+
+Dia_Cod_863 ID_WHEEL_DRIVE
+	0x0 Front
+	0x1 Heck
+	0x2 Allrad
+	0x3 Reserved
+
+Dia_Cod_677 ID_SPELLER
+	0x0AUS
+	0x1AN
+
+Dia_Cod_681 ID_INITIAL_DISCLAIMER
+	0x0 AUS
+	0x1 AN
+
+Dia_Cod_682 ID_LEGAL_DISCLAIMER
+	0x0 AUS
+	0x1 AN
+
+Dia_Cod_723 ID_EMERGENCY_CALL
+	0x0 AUS
+	0x1 AN
+
+Dia_Cod_727 ID_VOICE_CONTROL_SYSTEM
+	0x0 nicht aktiviert
+	0x1 aktiviert
+
+Dia_Cod_730 ID_NAVIGATION_SYSTEM
+	0x0 nicht aktiviert
+	0x1 aktiviert
+
+DiaCod_734 ID_WLAN_MODULE
+	0x0 nicht aktiviert
+	0x1 aktiviert
+
+Dia_Cod_8149 ID_IMPORT_MEDIA_DATA
+	0x0 nicht aktiviert
+	0x1 aktiviert
+
+Dia_Cod_817 ID_RIPPING_MEDIA_DATA
+	0x0 nicht aktiviert
+	0x1 aktiviert
+
+Dia_Cod_773 ID_VZA
+	0x0 nicht aktiviert
+	0x1 aktiviert
+
+Dia_Cod_835 ID_PSD (Prediktive Streckendaten)
+	0x0 nicht aktiviert
+	0x1 aktiviert
