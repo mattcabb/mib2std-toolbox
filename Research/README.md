@@ -1,24 +1,48 @@
 # Research
 
 ## Headunit variants
-`Research/variants.csv` - list of variants with carmaker, hardware producer, and other details.
+`Research/variants.csv` - list of variants with carmaker, hardware producer, and other details. Might not be 100% accurate!<BR>
+
+As we all can see in `metainfo2.txt` there are two MIB2std vendors: TechniSat and Delphi. Each is making devices in different variants. Variant is 5 digit long number which most likely contains specification of the head unit (vendor, target car maker, GPS, DAB, Sirius, Speech recogn...).
+
+```
+???xx
+172 = VW
+372 = Skoda
+472 = Seat
+```
+```
+xxx?x
+0, 1, 2 = TechniSat
+4, 5, 6, 7 = Delphi (Delphi might be +4 to current value)
+```
+
+When trying to assign variants to head units, features, and P/Ns - there's a difficuly: P/N is not vendor exclusive. For example device `3Q0 035 846` is made by both vendors. Also I can not find any indication of the device variant in hidden menus. The only way that I saw so far is by placing unsupported update in the SD port and waiting for variant conflict message to pop up.
+
+Why this is important?
+TechniSat and Delphi are using different file structures, separate firmware updates, even PPOI db locations are different:<br>
+TechniSat = `/tsd/var/nav/personalpoi/`<br>
+Delphi = `/media/swdl/packages/PersonalPOI/Package`
 
 ## SD card root paths
 (found in update files)<br>
-Technisat units - `/media/mp000`; `/media/mp001`
+TechniSat  - `/media/mp000`; `/media/mp001`<br>
+Delphi - ???
 
 ## GEM - Green Engineering Menu
 (found in update files)<br>
-`.esd` files path: `/tsd/etc/persistence/esd`
+TechniSat  - `/tsd/etc/persistence/esd/*.esd`<br>
+Delphi - ???
 
 ## System sounds
 (found in update files)<br>
-`/tsd/etc/waveplayer/sound/*.wav` - TOUCHSCREEN2.wav, NAVPOI.wav, WARNING1.wav<br>
-`/tsd/etc/speech/tts/tones/Tones22kHz16Bitmono/tone_error.wav`
+TechniSat  - `/tsd/etc/waveplayer/sound/*.wav`; `/tsd/etc/speech/tts/tones/Tones22kHz16Bitmono/*.wav`<br>
+Delphi - ???
 
 ## File structure
 (without `tree` commnad)<br>
-`find / | sed -e "s/[^-][^\/]*\// |/g" -e "s/|\([^ ]\)/|-\1/" > /media/mp000/tree.txt`
+TechniSat  - `find / | sed -e "s/[^-][^\/]*\// |/g" -e "s/|\([^ ]\)/|-\1/" > /media/mp000/tree.txt`<br>
+Delphi - ???
 
 ## Enabling developer mode
 ### with OBDeleven
