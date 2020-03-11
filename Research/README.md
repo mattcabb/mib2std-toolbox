@@ -1,9 +1,9 @@
 # Research
 
 ## Headunit variants
-`Research/variants.csv` - list of variants with carmaker, hardware producer, and other details. Might not be 100% accurate!<BR>
+`Research/variants.csv` - list of variants with carmaker, vendor, options, P/Ns. Might not be 100% accurate!<BR>
 
-As we all can see in `metainfo2.txt` there are two MIB2std vendors: TechniSat and Delphi. Each is making devices in different variants. Variant is 5 digit long number which most likely contains specification of the head unit (vendor, target car maker, GPS, DAB, Sirius, Speech recogn...).
+As can be seen in `metainfo2.txt` there are two MIB2std vendors: TechniSat and Delphi. Each is making devices in different variants. Variant is 5 digit long number which most likely contains specification of the head unit (vendor, target car maker, GPS, DAB, Sirius, Speech recogn...).
 
 ```
 ???xx
@@ -17,7 +17,7 @@ xxx?x
 4, 5, 6, 7 = Delphi (Delphi might be +4 to current value)
 ```
 
-When trying to assign variants to head units, features, and P/Ns - there's a difficuly: P/N is not vendor exclusive. For example device `3Q0 035 846` is made by both vendors. Also I can not find any indication of the device variant in hidden menus. The only way that I saw so far is by placing unsupported update in the SD port and waiting for variant conflict message to pop up.
+When trying to assign variants to head units, features, and P/Ns - there's a difficulty: P/N is not vendor exclusive. For example device `3Q0 035 846` is made by both vendors. Also I can not find any indication of the device variant in hidden menus. The only way that I saw so far is by placing unsupported update in the SD port and waiting for variant conflict message to pop up.
 
 Why this is important?
 TechniSat and Delphi are using different file structures, separate firmware updates, even PPOI db locations are different:<br>
