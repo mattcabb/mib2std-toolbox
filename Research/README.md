@@ -5,8 +5,7 @@
 
 ## SD card root paths
 (found in update files)<br>
-`/media/mp000`<br>
-`/media/mp001`
+Technisat units - `/media/mp000`; `/media/mp001`
 
 ## GEM - Green Engineering Menu
 (found in update files)<br>
