@@ -27,12 +27,12 @@ Delphi = `/media/swdl/packages/PersonalPOI/Package`
 ## SD card root paths
 (found in update files)<br>
 TechniSat  - `/media/mp000`; `/media/mp001`<br>
-Delphi - ???
+Delphi - `/sdc1`; `/sdc2`
 
 ## GEM - Green Engineering Menu
 (found in update files)<br>
 TechniSat  - `/tsd/etc/persistence/esd/*.esd`<br>
-Delphi - ???
+Delphi - `/apps/GEM_PROD/*.esd`
 
 ## System sounds
 (found in update files)<br>
