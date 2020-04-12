@@ -37,12 +37,12 @@ Delphi - `/extbin/apps/GEM_PROD/*.esd`; `/extbin/apps/GEM/*.esd`
 ## System sounds
 (found in update files)<br>
 TechniSat  - `/tsd/etc/waveplayer/sound/*.wav`; `/tsd/etc/speech/tts/tones/Tones22kHz16Bitmono/*.wav`<br>
-Delphi - ???
+Delphi - `/extbin/apps/wavetones/*.wav`; `/extbin/apps/tts/wavfiles/*.wav`
 
 ## File structure
 (without `tree` commnad)<br>
 TechniSat  - `find / | sed -e "s/[^-][^\/]*\// |/g" -e "s/|\([^ ]\)/|-\1/" > /media/mp000/tree.txt`<br>
-Delphi - ???
+Delphi - `find / | sed -e "s/[^-][^\/]*\// |/g" -e "s/|\([^ ]\)/|-\1/" > /sdc1/tree.txt`
 
 ## Enabling developer mode
 ### with OBDeleven
