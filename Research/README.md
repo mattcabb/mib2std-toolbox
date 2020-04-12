@@ -24,15 +24,15 @@ TechniSat and Delphi are using different file structures, separate firmware upda
 TechniSat = `/tsd/var/nav/personalpoi/`<br>
 Delphi = `/media/swdl/packages/PersonalPOI/Package`
 
-## SD card root paths
+## SD card paths
 (found in update files)<br>
 TechniSat  - `/media/mp000`; `/media/mp001`<br>
 Delphi - `/sdc1`; `/sdc2`
 
-## GEM - Green Engineering Menu
+## GEM - Green Engineering Menu paths
 (found in update files)<br>
 TechniSat  - `/tsd/etc/persistence/esd/*.esd`<br>
-Delphi - `/apps/GEM_PROD/*.esd`
+Delphi - `/apps/GEM_PROD/*.esd`; `/apps/GEM/*.esd`
 
 ## System sounds
 (found in update files)<br>
