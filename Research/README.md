@@ -32,7 +32,7 @@ Delphi - `/sdc1`; `/sdc2`
 ## GEM - Green Engineering Menu paths
 (found in update files)<br>
 TechniSat  - `/tsd/etc/persistence/esd/*.esd`<br>
-Delphi - `/apps/GEM_PROD/*.esd`; `/apps/GEM/*.esd`
+Delphi - `/extbin/apps/GEM_PROD/*.esd`; `/extbin/apps/GEM/*.esd`
 
 ## System sounds
 (found in update files)<br>
