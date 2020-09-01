@@ -66,4 +66,5 @@ https://www.youtube.com/watch?v=R9WlrkBioi8
 File `tmp/hmi/runHMI.sh` contains lines<br>
 `# Override SWaP`<br>
 `# VMOPTIONS="$VMOPTIONS -Dde.vw.mib.asl.internal.exlap.overrideSWaP"`<br>
-which indicates that there's a flag that might ignore FEC/SWaP codes for development purposes when running the software on virtual machine. Can it also be triggered when the HU is runnig?
+which indicates that there's a flag that might ignore FEC/SWaP codes for development purposes when running the software on virtual machine.
+Can it also be triggered when the HU is runnig? Yes. If there's a signed_exception_list.txt file present in the system with correct signature, then SWaP app will approve codes listed in the file.
