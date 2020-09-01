@@ -1,56 +1,79 @@
-Variant;Automaker;Vendor;Gen;Reg;Navi;Speach;DAB;part numbers;info
-17201;VW;Technisat;MIB2;;;;;;
-17202;VW;Technisat;MIB2;;;;;;
-17203;VW;Technisat;MIB2;;;;;;
-17204;VW;Technisat;MIB2;;;;;;
-17205;VW;Technisat;MIB2;;;;;;
-17206;VW;Technisat;MIB2;;;;;;
-17207;VW;Technisat;MIB2;;;;;;
-17210;VW;Technisat;MIB2;;;;;;
-17212;VW;Technisat;MIB2;;;;;;
-17214;VW;Technisat;MIB2;;;;;;
-17215;VW;Technisat;MIB2;;;;;;
-17216;VW;Technisat;MIB2;;;;;;
-17217;VW;Technisat;MIB2;;;;;;
-17220;VW;Technisat;MIB2;;;;;;
-17222;VW;Technisat;MIB2;;;;;;
-17224;VW;Technisat;MIB2;;;;;;
-17241;VW;Delphi;MIB2;;;;;;
-17242;VW;Delphi;MIB2;;;;;;
-17245;VW;Delphi;MIB2;;;;;;
-17246;VW;Delphi;MIB2;;;;;;
-17247;VW;Delphi;MIB2;;;;;;
-17248;VW;Delphi;MIB2;;;;;;
-17249;VW;Delphi;MIB2;;;;;;
-17250;VW;Delphi;MIB2;EU;yes;yes;;3Q0 035 874 B;STD2Nav_EU_VW
-17251;VW;Delphi;MIB2;;;;;;
-17252;VW;Delphi;MIB2;;;;;;
-17254;VW;Delphi;MIB2;;;;;;
-17255;VW;Delphi;MIB2;;;;;;
-17256;VW;Delphi;MIB2;EU;no;no;;;STD2_EU_VW
-17257;VW;Delphi;MIB2;EU;no;yes;;;STD2Plus_EU_VW
-17261;VW;Delphi;MIB2;;;;;;
-17262;VW;Delphi;MIB2;;;;;;
-17263;VW;Delphi;MIB2;;;;;;
-17268;VW;Delphi;MIB2;;;;;;
-17269;VW;Delphi;MIB2;;;;;;
-17270;VW;Delphi;MIB2;;;;;;
-17271;VW;Delphi;MIB2;;;;;;
-37206;Skoda?;Technisat;MIB2;;;;;;
-37207;Skoda?;Technisat;MIB2;;;;;;
-37208;Skoda?;Technisat;MIB2;;;;;;
-37212;Skoda?;Technisat;MIB2;;;;;;
-37213;Skoda?;Technisat;MIB2;;;;;;
-37214;Skoda?;Technisat;MIB2;;;;;;
-47201;Seat;Technisat;MIB2;EU+RoW;no;yes;yes;;MST2_EU_SE_ZR
-47202;Seat;Technisat;MIB2;EU+RoW;no;yes;no;;MST2_EU_SE_ZR
-47203;Seat;Technisat;MIB2;EU+RoW;yes;yes;yes;;MST2_EU_SE_ZR
-47204;Seat;Technisat;MIB2;EU+RoW;yes;yes;no;;MST2_EU_SE_ZR
-47205;Seat;Technisat;MIB2;;;;;;
-47208;Seat;Technisat;MIB2;;;;;;
-47209;Seat;Technisat;MIB2;;;;;;
-47210;Seat;Technisat;MIB2;;;;;;
-47213;Seat;Technisat;MIB2;;;;;;
-47214;Seat;Technisat;MIB2;;;;;;
-;;;;;;;;;
-;Skoda;;MIB1;EU;yes;;;5E0 035 874 A;MSTD_EU_SK
+Variant;Automaker;Vendor;Gen;Platform;Reg;Navi;Speech;DAB;MOST;part numbers;info
+17201;VW;Technisat;MIB2;ZR;EU+RoW;no;;yes;;;MST2_EU_VW_ZR
+17202;VW;Technisat;MIB2;ZR;EU+RoW;no;;no;;;MST2_EU_VW_ZR
+17203;VW;Technisat;MIB2;ZR;EU+RoW;no;;no;;;MST2_EU_VW_ZR
+17204;VW;Technisat;MIB2;ZR;EU+RoW;no;;yes;;;MST2_EU_VW_ZR
+17205;VW;Technisat;MIB2;ZR;EU+RoW;no;;no;;;MST2_EU_VW_ZR
+17206;VW;Technisat;MIB2;ZR;EU+RoW;yes;;yes;;;MST2_EU_VW_ZR
+17207;VW;Technisat;MIB2;ZR;EU+RoW;yes;;no;;;MST2_EU_VW_ZR
+17210;VW;Technisat;MIB2;;;;;;;;
+17212;VW;Technisat;MIB2;;;;;;;;
+17214;VW;Technisat;MIB2;PQ;EU+RoW;no;;yes;;;MST2_EU_VW_PQ
+17215;VW;Technisat;MIB2;PQ;EU+RoW;no;;no;;;MST2_EU_VW_PQ
+17216;VW;Technisat;MIB2;PQ;EU+RoW;yes;;yes;;;MST2_EU_VW_PQ
+17217;VW;Technisat;MIB2;PQ;EU+RoW;yes;;no;;;MST2_EU_VW_PQ
+17218;VW;Technisat;MIB2;PQ;USA;no;;yes;;;MST2_US_VW_PQ
+17220;VW;Technisat;MIB2;PQ;USA;yes;;yes;;;MST2_US_VW_PQ
+17220;VW;Technisat;MIB2;;;;;;;;
+17222;VW;Technisat;MIB2;PQ;CN;yes;;no;;;MST2_CN_VW_PQ
+17223;VW;Technisat;MIB2;PQ;JP+KR;no;;no;;;MST2_RoA_VW_PQ
+17224;VW;Technisat;MIB2;ZR;EU+RoW;yes;;no;;;MST2_EU_VW_ZR
+17241;VW;Delphi;MIB2;;;;;;;;
+17242;VW;Delphi;MIB2;;;;;;;;
+17245;VW;Delphi;MIB2;;;;;;;;
+17246;VW;Delphi;MIB2;;;;;;;;
+17247;VW;Delphi;MIB2;;;;;;;;
+17248;VW;Delphi;MIB2;;;;;;;;
+17249;VW;Delphi;MIB2;;;;;;;;
+17250;VW;Delphi;MIB2;;EU;yes;yes;;;3Q0 035 874 B;STD2Nav_EU_VW
+17251;VW;Delphi;MIB2;;;;;;;;
+17252;VW;Delphi;MIB2;;;;;;;;
+17254;VW;Delphi;MIB2;;;;;;;;
+17255;VW;Delphi;MIB2;;;;;;;;
+17256;VW;Delphi;MIB2;;EU;no;no;;;;STD2_EU_VW
+17257;VW;Delphi;MIB2;;EU;no;yes;;;;STD2Plus_EU_VW
+17261;VW;Delphi;MIB2;;;;;;;;
+17262;VW;Delphi;MIB2;ZR;EU;no;no;;;;MST2_EU_VW
+17263;VW;Delphi;MIB2;ZR;EU;no;yes;;;;MST2_EU_VW
+17264;VW;Delphi;MIB2;ZR;NAR;no;;;;;MST2_US_VW
+17268;VW;Delphi;MIB2;ZR;EU;Yes;Yes;;;;MST2_EU_VW
+17269;VW;Delphi;MIB2;ZR;NAR;Yes;;;;;MST2_US_VW
+17270;VW;Delphi;MIB2;;;;;;;;
+17271;VW;Delphi;MIB2;;;;;;;;
+37201;Skoda;Technisat;MIB2;ZR;EU+RoW;;;yes;;;MST2_EU_SK_ZR
+37202;Skoda;Technisat;MIB2;ZR;EU+RoW;;;no;;;MST2_EU_SK_ZR
+37203;Skoda;Technisat;MIB2;;;;;;;;
+37204;Skoda;Technisat;MIB2;ZR;EU+RoW;;;yes;;;MST2_EU_SK_ZR
+37205;Skoda;Technisat;MIB2;ZR;EU+RoW;;;no;;;MST2_EU_SK_ZR
+37206;Skoda;Technisat;MIB2;ZR;EU+RoW;yes;;yes;;;MST2_EU_SK_ZR
+37207;Skoda;Technisat;MIB2;ZR;EU+RoW;yes;;no;;;MST2_EU_SK_ZR
+37208;Skoda;Technisat;MIB2;;;;;;;;
+37210;Skoda;Technisat;MIB2;PQ;EU+RoW;no;;no;;;MST2_EU_SK_PQ
+37211;Skoda;Technisat;MIB2;PQ;EU+RoW;no;;yes;;;MST2_EU_SK_PQ
+37212;Skoda;Technisat;MIB2;PQ;EU+RoW;yes;;no;;;MST2_EU_SK_PQ
+37213;Skoda;Technisat;MIB2;PQ;EU+RoW;yes;;yes;;;MST2_EU_SK_PQ
+37214;Skoda;Technisat;MIB2;ZR;CN;yes;;no;;;MST2_CN_SK_ZR
+47201;Seat;Technisat;MIB2;ZR;EU+RoW;no;yes;yes;;;MST2_EU_SE_ZR
+47202;Seat;Technisat;MIB2;ZR;EU+RoW;no;yes;no;;;MST2_EU_SE_ZR
+47203;Seat;Technisat;MIB2;ZR;EU+RoW;yes;yes;yes;;;MST2_EU_SE_ZR
+47204;Seat;Technisat;MIB2;ZR;EU+RoW;yes;yes;no;;;MST2_EU_SE_ZR
+47205;Seat;Technisat;MIB2;;;;;;;;
+47206;Seat;Technisat;MIB2;PQ;EU+RoW;no;;yes;;;MST2_EU_SE_PQ
+47207;Seat;Technisat;MIB2;PQ;EU+RoW;no;;no;;;MST2_EU_SE_PQ
+47208;Seat;Technisat;MIB2;PQ;EU+RoW;yes;;yes;;;MST2_EU_SE_PQ
+47209;Seat;Technisat;MIB2;PQ;EU+RoW;yes;;no;;;MST2_EU_SE_PQ
+47210;Seat;Technisat;MIB2;;;;;;;;
+47213;Seat;Technisat;MIB2;ZR;EU+RoW;no;;yes;;;MST2_EU_SE_ZR
+47214;Seat;Technisat;MIB2;ZR;EU+RoW;yes;;yes;;;MST2_EU_SE_ZR
+;;;;;;;;;;;
+?;Skoda;Panasonic;MIB1;;EU;yes;?;yes;;5E0 035 874 A;MSTD_EU_SK
+?;Skoda;Technisat;MIB2;;EU;no;yes?;?;;5Q0 035 840 A;MST2_EU_SK_ZR
+?;VW;Technisat;MIB2;;EU;yes;yes;no;;3Q0 035 846;
+?;VW;Delphi;MIB2;;EU;yes;yes;no;;3Q0 035 846;
+?;VW;;MIB2;;;no;;;;3Q0 035 819 A;
+?;VW;;MIB2;;;no;;;;3Q0 035 820 A;
+?;VW;Delphi;MIB2;;;;;no?;;3Q0 035 864 A;
+?;VW;Delphi;MIB2;;;;;;;3Q0 035 864 B;
+?;VW;;MIB2;;;;;yes?;;3Q0 035 874 A;
+?;VW;Delphi;MIB2;;;;;;;3Q0 035 874 B;
+?;VW;Delphi;MIB2;;;;;;;3Q0 035 874 C;
