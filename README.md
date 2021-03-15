@@ -1,4 +1,5 @@
 ⚠️ Don't bother to install it. It's not ready yet.
+👍 But somebody else have made something that already works! Check this: https://github.com/olli991/mib2std-toolbox
 
 # MIB2Std-toolbox
 Attempt to access VW, Seat, Skoda MIB2Std Infotainment filesystem to run some scripts and customize few things.
