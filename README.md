@@ -1,4 +1,4 @@
-⚠️ Don't bother to install it. It's not ready yet.
+ℹ️ Don't bother to install it. It's not ready yet.<br>
 👍 But somebody else have made something that already works! Check this: https://github.com/olli991/mib2std-toolbox
 
 # MIB2Std-toolbox
